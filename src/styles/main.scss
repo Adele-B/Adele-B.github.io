@@ -26,6 +26,7 @@ body {
   padding: 0.5rem 1rem;
   box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
   background-color: #ffffff;
+  z-index: 10;
 }
 
 .nav__list {
@@ -62,7 +63,7 @@ body {
 
 @media (max-width: 768px) {
   .nav__button {
-    display:block;
+    display: block;
     padding-top: 10px;
     margin-left: 10px;
     z-index: 10;
@@ -136,6 +137,50 @@ body {
   max-height: 100%;
   display: block;
   margin: 0 auto;
+}
+
+// About section
+
+.about__section {
+  text-align: center;
+}
+
+.about__me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 350px;
+  padding-top: 60px;
+  background-color: $primary-colour;
+  clip-path: ellipse(75% 100% at 50% 0%)
+}
+
+.about__title {
+  padding-bottom: 10px;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.about__heading {
+  font-size: 1.75rem;
+  padding: 15px;
+}
+
+.about__text__container {
+  padding: 10px;
+}
+
+.about__text {
+  max-width: 60%;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 1.10rem;
+
+  &--list {
+    @extend .about__text;
+    text-align: left;
+  }
 }
 
 // Footer
