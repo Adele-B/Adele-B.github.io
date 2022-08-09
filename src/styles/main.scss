@@ -14,11 +14,44 @@ $secondary-text-colour: #000000;
   font-family: 'Source Code Pro', monospace;
 }
 
-// Navigation
-
 body {
   background-color: $tertiary-colour
 }
+
+.section {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 350px;
+  padding-top:75px;
+  background-color: $primary-colour;
+  clip-path: ellipse(75% 100% at 50% 0%)
+}
+
+.title {
+  padding-bottom: 10px;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.text {
+  max-width: 60%;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 1.10rem;
+
+  &--list {
+    @extend .text;
+    text-align: left;
+  }
+}
+
+// Navigation
 
 .navbar {
   width: 100%;
@@ -88,17 +121,6 @@ body {
 
 // Home page
 
-.home__section {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 350px;
-  padding-top: 100px;
-  background-color: $primary-colour;
-  clip-path: ellipse(75% 100% at 50% 0%)
-}
-
 .home__text {
   padding: 0.5rem;
   margin: 0.5rem auto;
@@ -141,27 +163,6 @@ body {
 
 // About section
 
-.about__section {
-  text-align: center;
-}
-
-.about__me {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 350px;
-  padding-top: 60px;
-  background-color: $primary-colour;
-  clip-path: ellipse(75% 100% at 50% 0%)
-}
-
-.about__title {
-  padding-bottom: 10px;
-  font-size: 2rem;
-  text-decoration: underline;
-}
-
 .about__heading {
   font-size: 1.75rem;
   padding: 15px;
@@ -169,18 +170,6 @@ body {
 
 .about__text__container {
   padding: 10px;
-}
-
-.about__text {
-  max-width: 60%;
-  padding: 10px;
-  margin: 0 auto;
-  font-size: 1.10rem;
-
-  &--list {
-    @extend .about__text;
-    text-align: left;
-  }
 }
 
 // Footer
