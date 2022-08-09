@@ -1,9 +1,12 @@
 {
   "name": "adele-project",
   "version": "1.0.0",
+  "homepage": "http://Adele-B.github.io",
   "description": "",
   "main": "index.jsx",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "test": "jest --coverage"
@@ -30,6 +33,7 @@
     "@testing-library/user-event": "^14.4.1",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^28.1.3",
     "jest-environment-jsdom": "^28.1.3",
