@@ -49,6 +49,12 @@ body {
     @extend .text;
     text-align: left;
   }
+
+  &--italic {
+    @extend .text;
+    font-style: italic;
+    max-width: 100%;
+  }
 }
 
 // Navigation
@@ -170,6 +176,35 @@ body {
 
 .about__text__container {
   padding: 10px;
+}
+
+// Experience page
+
+.experience__heading {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.experience__text__container {
+  width: 100%;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.experience__box {
+  background-color: #ffff;
+  flex-basis: 32%;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+}
+
+.experience__text {
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 1.10rem;
 }
 
 // Footer
