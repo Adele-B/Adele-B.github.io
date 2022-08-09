@@ -26,7 +26,7 @@ function About() {
             Aminals have always been a love of mine. I even studied animal behaviour during my education. I could spend all day at the zoo as it's definitely a happy place for me.
           </p>
           <p className="about__text">
-            Tech has become a big part of my life as our lives have started to revolve around it more. I love being about to solve problems and produce interesting projects!
+            Tech has become a big part of my life as our lives have started to revolve around it more. I love being able to solve problems and produce interesting projects!
           </p>
         </div>
         <div className="about__text__container">
