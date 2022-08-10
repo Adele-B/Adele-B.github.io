@@ -207,6 +207,22 @@ body {
   font-size: 1.10rem;
 }
 
+// Skills
+
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 10px;
+  justify-items: center;
+  padding: 50px 10px;
+}
+
+.icon__image {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+
 // Footer
 
 .footer__section {
