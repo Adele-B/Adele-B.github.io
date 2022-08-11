@@ -42,7 +42,7 @@ function Navigation() {
           <NavItem href="/about" text="About" />
           <NavItem href="/experience" text="Experience" />
           <NavItem href="/skills" text="Skills" />
-          <NavItem href="projects" text="Projects" />
+          <NavItem href="/projects" text="Projects" />
           <NavItem href="/contact" text="Contact" />
         </ul>
 
