@@ -6,7 +6,7 @@ function Experience() {
       <section className="section">
         <div className="container">
           <h1 className="title">Experience</h1>
-          <p className="text">
+          <p className="text--restrict">
             During my time at university, I decided that a career in Psychology was no longer what I wanted.
             I began teaching myself to code and found a passion for solving complex puzzles and creating things from scratch.
             In my 3rd year on university, I applied for a Code First Girls course and it gave me the confidence to persue a career in tech, so

@@ -13,8 +13,8 @@ function Home() {
 
   return (
     <main>
-      <section >
-        <div className="home__section">
+      <section>
+        <div className="container">
           <div className="home__text">
             <h1 className="heading">Hi, I'm Adele...</h1>
             <p className="cycle__text">{textList[textIndex]}</p>
