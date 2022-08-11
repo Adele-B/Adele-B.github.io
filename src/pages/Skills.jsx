@@ -7,7 +7,7 @@ function Skills() {
         <div className="container">
           <h1 className="title">Skills</h1>
           <p className="text--restrict">Here are some of the skills I have learned and acquired since becoming a Software Engineer</p>
-          <p className="text--restrict">This list doesn not include the skills and languages I can currently working on but I am always learning so this list is sure to grow!</p>
+          <p className="text--restrict">This list does not include the skills and languages I can currently working on but I am always learning so this list is sure to grow!</p>
         </div>
         <div className="skills__container">
           <div className="icon__container">
