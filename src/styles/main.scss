@@ -46,7 +46,7 @@ body {
 
   &--list {
     @extend .text;
-    text-align: left;
+    list-style: none;
   }
 
   &--italic {
@@ -57,7 +57,7 @@ body {
 
   &--restrict {
     @extend .text;
-      max-width: 60%;
+      max-width: 50%;
   }
 }
 

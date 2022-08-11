@@ -14,7 +14,7 @@ function About() {
             I specialise in Frontend development using JavaScript and React with a focus on testing and accessibility.
           </p>
         </div>
-        <div className="text__container">
+        <div className="about__text__container">
           <h2 className="about__heading">Interests</h2>
           <p className="text--restrict">
             I love being outside in nature, whether it be walks in the woods, strolls along the beach or hikes abroad!
