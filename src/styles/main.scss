@@ -61,6 +61,10 @@ body {
   }
 }
 
+.btn__container {
+  padding-top: 30px;
+}
+
 // Navigation
 
 .navbar {
@@ -221,6 +225,19 @@ body {
   padding: 50px 10px;
 }
 
+.show__text__btn {
+  background-color: #ffff;
+  border: black solid;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.show__text__btn:hover {
+  background-color: rgb(235, 235, 235);
+}
+
 .icon__container {
   position: relative;
 }
@@ -232,6 +249,11 @@ body {
   padding: 10px;
   transition: .5s ease-in-out;
   backface-visibility: hidden;
+
+  &--clicked {
+    @extend .icon__image;
+    opacity: 0.3;
+  }
 }
 
 .skills__text {
@@ -244,6 +266,11 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+
+  &--clicked {
+    @extend .skills__text;
+    opacity: 1;
+  }
 }
 
 // (Make mobile and screen reader accessible)
