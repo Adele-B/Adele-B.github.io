@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function About() {
   return (
@@ -7,7 +7,7 @@ function About() {
         <div className="container">
           <h1 className="title">About me</h1>
           <p className="text--restrict">
-            Hi, I'm Adele and I'm a Software Engineer. I graduated in 2021 with a First Class Degree in Psychology.
+            Hi, I&apos;m Adele and I&apos;m a Software Engineer. I graduated in 2021 with a First Class Degree in Psychology.
           </p>
           <p className="text--restrict">
             Since then, I have taught myself to code using Udemy, Codecademy and a Course run by Code First Girls.
@@ -20,10 +20,10 @@ function About() {
             I love being outside in nature, whether it be walks in the woods, strolls along the beach or hikes abroad!
           </p>
           <p className="text--restrict">
-            I have always had an interest in gaming for as long as I can remember. I play anything from FarCry and Assassin's Creed to Old School Runescape.
+            I have always had an interest in gaming for as long as I can remember. I play anything from FarCry and Assassin&apos;s Creed to Old School Runescape.
           </p>
           <p className="text--restrict">
-            Aminals have always been a love of mine. I even studied animal behaviour during my education. I could spend all day at the zoo as it's definitely a happy place for me.
+            Aminals have always been a love of mine. I even studied animal behaviour during my education. I could spend all day at the zoo as it&apos;s definitely a happy place for me.
           </p>
           <p className="text--restrict">
             Tech has become a big part of my life as our lives have started to revolve around it more. I love being able to solve problems and produce interesting projects!
@@ -40,7 +40,7 @@ function About() {
         </div>
       </section>
     </main>
-  )
+  );
 }
 
 export default About;

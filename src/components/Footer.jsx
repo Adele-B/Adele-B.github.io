@@ -1,12 +1,12 @@
-import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa"
-import { IoMdMail } from "react-icons/io"
-import { IconContext } from "react-icons/lib";
+import React from 'react';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { IoMdMail } from 'react-icons/io';
+import { IconContext } from 'react-icons/lib';
 
 function Footer() {
   return (
     <section className="footer__section">
-      <IconContext.Provider value={{ color: "#3e3d3d", size: "3rem" }}>
+      <IconContext.Provider value={{ color: '#3e3d3d', size: '3rem' }}>
         <div>
           <a
             className="social__icon"
@@ -36,7 +36,7 @@ function Footer() {
       </IconContext.Provider>
 
     </section>
-  )
+  );
 }
 
 export default Footer;

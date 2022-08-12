@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Experience() {
   return (
@@ -10,7 +10,7 @@ function Experience() {
             During my time at university, I decided that a career in Psychology was no longer what I wanted.
             I began teaching myself to code and found a passion for solving complex puzzles and creating things from scratch.
             In my 3rd year on university, I applied for a Code First Girls course and it gave me the confidence to persue a career in tech, so
-            I taught myself to code and I absolutely love what I do and I can't wait to learn more!
+            I taught myself to code and I absolutely love what I do and I can&apos;t wait to learn more!
           </p>
         </div>
         <div className="experience__text__container">
@@ -46,13 +46,13 @@ function Experience() {
               Building a Data Scraper using Python to scrape Reddit using key terms.
             </p>
             <p className="experience__text">
-              Researched, collected and segmented data according to different variables to be used in further research on Public Health 
+              Researched, collected and segmented data according to different variables to be used in further research on Public Health
             </p>
           </div>
         </div>
       </section>
     </main>
-  )
+  );
 }
 
 export default Experience;

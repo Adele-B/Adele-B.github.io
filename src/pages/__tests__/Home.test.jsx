@@ -14,6 +14,6 @@ const renderPage = () => {
 describe('Home page', () => {
   it('should render the home page', () => {
     renderPage();
-    expect(screen.getByText("Hi, I'm Adele...")).toBeInTheDocument()
-  })
-})
+    expect(screen.getByText("Hi, I'm Adele...")).toBeInTheDocument();
+  });
+});
