@@ -65,6 +65,27 @@ body {
   padding-top: 30px;
 }
 
+.heading {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.box__container {
+  width: 100%;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  background-color: #ffff;
+  min-width: 300px;
+  flex-basis: 30%;
+  margin: 0 auto 10px auto;
+  border-radius: 10px;
+}
+
 // Navigation
 
 .navbar {
@@ -141,7 +162,7 @@ body {
   text-align: center;
 }
 
-.heading {
+.intro {
   font-size: 2rem;
 }
 
@@ -187,27 +208,6 @@ body {
 }
 
 // Experience page
-
-.experience__heading {
-  font-size: 1.5rem;
-  padding: 15px;
-}
-
-.experience__text__container {
-  width: 100%;
-  padding: 30px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.experience__box {
-  background-color: #ffff;
-  flex-basis: 32%;
-  margin: 0 auto 10px auto;
-  border-radius: 10px;
-}
 
 .experience__text {
   padding: 10px;
@@ -279,6 +279,13 @@ body {
 
 .icon__container:hover .skills__text{
   opacity: 1;
+}
+
+// Projects pages
+
+.project_image {
+  height: 200px;
+  width: 200px;
 }
 
 // Footer

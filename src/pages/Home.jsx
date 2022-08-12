@@ -18,7 +18,7 @@ function Home() {
       <section>
         <div className="container">
           <div className="home__text">
-            <h1 className="heading">Hi, I&apos;m Adele...</h1>
+            <h1 className="intro">Hi, I&apos;m Adele...</h1>
             <p className="cycle__text">{textList[textIndex]}</p>
           </div>
         </div>

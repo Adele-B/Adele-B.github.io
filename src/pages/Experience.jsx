@@ -13,9 +13,9 @@ function Experience() {
             I taught myself to code and I absolutely love what I do and I can&apos;t wait to learn more!
           </p>
         </div>
-        <div className="experience__text__container">
-          <div className="experience__box">
-            <h2 className="experience__heading">Viable Data</h2>
+        <div className="box__container">
+          <div className="box">
+            <h2 className="heading">Viable Data</h2>
             <p className="text--italic">Nov 2021 - Present</p>
             <p className="experience__text">
               Collaborating with the disign team to build frontend web application following GDS standards.
@@ -28,8 +28,8 @@ function Experience() {
             </p>
           </div>
 
-          <div className="experience__box">
-            <h2 className="experience__heading">Self Taught</h2>
+          <div className="box">
+            <h2 className="heading">Self Taught</h2>
             <p className="text--italic">May 2021 - Nov 2021</p>
             <p className="experience__text">
               Using guided courses on Udemy, Codecademy and youtube to learn frontend development using React and JavaScript
@@ -39,8 +39,8 @@ function Experience() {
             </p>
           </div>
 
-          <div className="experience__box">
-            <h2 className="experience__heading">Research Assistant</h2>
+          <div className="box">
+            <h2 className="heading">Research Assistant</h2>
             <p className="text--italic">Feb 2020 - Nov 2020</p>
             <p className="experience__text">
               Building a Data Scraper using Python to scrape Reddit using key terms.
